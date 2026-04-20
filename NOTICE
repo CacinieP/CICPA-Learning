@@ -1,0 +1,40 @@
+CICPA-Learning - Third-Party Content Notice
+============================================
+
+This repository contains study notes and summaries prepared by individual
+contributors for the CICPA (Chinese Institute of Certified Public Accountants)
+examinations.
+
+IMPORTANT DISCLAIMER
+--------------------
+
+The licenses in this repository (LICENSE-DOCS and LICENSE-CODE) apply ONLY
+to original content created by the repository contributors. They do NOT cover
+any third-party materials that may be present in this repository, including
+but not limited to:
+
+  - Textbook excerpts or original textbook content
+  - Course materials, lecture notes, or handouts from training institutions
+  - Actual examination questions (past papers / zhen ti)
+  - Laws, regulations, accounting standards, or auditing standards quoted
+    in full or in substantial part
+  - Screenshots or reproductions of restricted-access materials
+  - Any other content whose copyright belongs to third parties
+
+All such third-party content remains the intellectual property of its
+respective rights holders. Inclusion in this repository is for personal
+study reference only and does not constitute authorization for
+redistribution, commercial use, or any use beyond what is permitted by
+applicable copyright law.
+
+If you are a rights holder and believe any content in this repository
+infringes on your rights, please open an issue or contact the repository
+maintainer to request removal.
+
+USE OF EXAMINATION-RELATED CONTENT
+-----------------------------------
+
+References to CICPA examination formats, schedules, and question types
+are based on publicly available information published by the CICPA and
+are cited for informational purposes only. CICPA examination content,
+including past examination papers, is proprietary to the CICPA.
