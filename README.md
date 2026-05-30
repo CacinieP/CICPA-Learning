@@ -1,3 +1,172 @@
+# CICPA Study Materials (CICPA 学习资料)
+
+An open-source study index for the 2026 Certified Public Accountant National Unified Examination (注册会计师全国统一考试), organizing key time points, question types and scores for each subject, subject material entry points, and official sources.
+
+> This repository is a personal study compilation project, not official materials from the Chinese Institute of Certified Public Accountants (中注协). If exam times, question types/scores, or registration rules change, refer to the CICPA official announcements.
+
+## 2026 Certified Public Accountant National Unified Examination — Key Time Points (关键时间节点)
+
+### Registration (报名)
+
+| Item | Time |
+|------|------|
+| Registration period (报名时间) | April 7, 2026, 8:00 AM — April 30, 8:00 PM |
+| Payment period (交费时间) | June 15 — June 30, 2026 (daily 8:00 AM — 8:00 PM) |
+
+### Examination (考试)
+
+| Stage | Time |
+|------|------|
+| Professional stage exam (专业阶段考试) | August 29 — 30, 2026 |
+| Comprehensive stage exam (综合阶段考试) | August 30, 2026 |
+
+> European test area (Belgium local time): Professional stage September 5–6, Comprehensive stage September 6.
+
+### Exam Schedule by Subject (各科考试时间)
+
+**August 29 (Saturday)**
+
+| Time | Subject | Duration |
+|------|---------|----------|
+| 08:30—11:30 | Accounting (会计) | 3 hours |
+| 13:00—15:00 | Tax Law (税法) | 2 hours |
+| 17:00—19:00 | Economic Law (经济法) | 2 hours |
+
+**August 30 (Sunday)**
+
+| Time | Subject | Duration |
+|------|---------|----------|
+| 08:30—11:00 | Auditing (审计) | 2.5 hours |
+| 13:00—15:30 | Financial Cost Management (财务成本管理) | 2.5 hours |
+| 17:00—19:00 | Corporate Strategy and Risk Management (公司战略与风险管理) | 2 hours |
+
+> Accounting, Tax Law, and Economic Law may have two sessions in certain test areas to distribute test-takers.
+
+**Comprehensive Stage (August 30)**
+
+| Time | Subject |
+|------|---------|
+| 08:30—12:00 | Comprehensive Professional Competence Test — Paper 1 (职业能力综合测试·试卷一) |
+| 14:00—17:30 | Comprehensive Professional Competence Test — Paper 2 (职业能力综合测试·试卷二) |
+
+### Question Types and Scores by Subject (各科题型与分值)
+
+All subjects have a maximum score of 100; 60 is the passing score. Each subject includes a 5-point English bonus (awarded for correctly answering specific subjective questions entirely in English).
+
+#### Accounting (会计) — 3 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 13 × 2 pts | 26 pts |
+| Multiple-choice questions (多选题) | 12 × 2 pts | 24 pts |
+| Calculation & analysis questions (计算分析题) | 2 × 9 pts | 18 pts |
+| Comprehensive questions (综合题) | 2 × 16 pts | 32 pts |
+
+#### Auditing (审计) — 2.5 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 20 × 1 pt | 20 pts |
+| Multiple-choice questions (多选题) | 15 × 2 pts | 30 pts |
+| Short-answer questions (简答题) | 6 questions | 36 pts |
+| Comprehensive questions (综合题) | 1 question | 14 pts |
+
+#### Financial Cost Management (财务成本管理) — 2.5 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 13 × 2 pts | 26 pts |
+| Multiple-choice questions (多选题) | 12 × 2 pts | 24 pts |
+| Calculation & analysis questions (计算分析题) | 4 × 9 pts | 36 pts |
+| Comprehensive questions (综合题) | 1 × 14 pts | 14 pts |
+
+#### Tax Law (税法) — 2 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 26 × 1 pt | 26 pts |
+| Multiple-choice questions (多选题) | 16 × 1.5 pts | 24 pts |
+| Calculation & short-answer questions (计算问答题) | 4 questions | 20 pts |
+| Comprehensive questions (综合题) | 2 questions | 30 pts |
+
+#### Economic Law (经济法) — 2 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 26 × 1 pt | 26 pts |
+| Multiple-choice questions (多选题) | 16 × 1.5 pts | 24 pts |
+| Case analysis questions (案例分析题) | 4 × 12.5 pts | 50 pts |
+
+#### Corporate Strategy and Risk Management (公司战略与风险管理) — 2 hours
+
+| Question type | Quantity | Points |
+|---------------|----------|--------|
+| Single-choice questions (单选题) | 26 × 1 pt | 26 pts |
+| Multiple-choice questions (多选题) | 16 × 1.5 pts | 24 pts |
+| Short-answer questions (简答题) | 4 questions | 24 pts |
+| Comprehensive questions (综合题) | 1 question | 26 pts |
+
+> The above question types and scores are based on recent exam syllabi. If adjustments are made for 2026, refer to CICPA official announcements.
+
+## Study Materials Index (学习资料索引)
+
+Recommended usage:
+
+1. First use the table below to confirm subject directories and exam timing
+2. Then enter the corresponding subject directory for knowledge points, notes, and review materials
+3. When encountering exam schedule, registration, or payment questions, prioritize checking the official sources at the end of this document
+
+| Folder | Subject | Exam time | Duration |
+|--------|---------|-----------|----------|
+| [CICPA-Accounting](CICPA-Accounting/) | Accounting (会计) | 8/29 08:30—11:30 | 3h |
+| [CICPA-Tax](CICPA-Tax/) | Tax Law (税法) | 8/29 13:00—15:00 | 2h |
+| [CICPA-Law](CICPA-Law/) | Economic Law (经济法) | 8/29 17:00—19:00 | 2h |
+| [CICPA-Auditing](CICPA-Auditing/) | Auditing (审计) | 8/30 08:30—11:00 | 2.5h |
+| [CICPA-Financial Management](CICPA-Financial%20Management/) | Financial Cost Management (财务成本管理) | 8/30 13:00—15:30 | 2.5h |
+| [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | Corporate Strategy and Risk Management (公司战略与风险管理) | 8/30 17:00—19:00 | 2h |
+
+### Registration Portal (报名入口)
+
+- Desktop: https://cpaexam.cicpa.org.cn
+- Mobile: Follow the official WeChat public account "中国注册会计师" (Chinese Institute of Certified Public Accountants)
+
+### Contact Phone (咨询电话)
+
+010-88250110 / 010-88250119 (business days 8:00–11:30, 13:00–17:00)
+
+## Official Sources (官方来源)
+
+- [Announcement on the 2026 Certified Public Accountant National Unified Examination Registration and Exam Times](https://www.cicpa.org.cn/xxfb/tzgg/202512/t20251210_65740.html)
+- [2026 Certified Public Accountant National Unified Examination Registration Guide (PDF)](https://www.cicpa.org.cn/xxfb/tzgg/202603/W020260311354851382981.pdf)
+- [CICPA Officials' Q&A on 2026 CPA Exam Registration Matters](https://www.cicpa.org.cn/xxfb/news/202603/t20260311_65853.html)
+
+## License (许可协议)
+
+This repository uses a **document / code split licensing** scheme:
+
+| Content type | License | Scope |
+|--------------|---------|-------|
+| Documents, notes, summaries | [CC BY-NC-SA 4.0](LICENSE-DOCS) | All `.md` files and study materials in each subject directory |
+| Scripts, tool code | [MIT](LICENSE-CODE) | Scripts and program code (if any) |
+
+### Third-party Content Notice (第三方内容声明)
+
+The licenses in this repository **only cover content originally created by contributors**. The following content **is not within the scope of this repository's authorization** and its rights belong to the original rights holders:
+
+- Original textbook text, online course handouts
+- Past exam question originals
+- Institutional materials, screenshots
+- Original citations of laws and regulations, accounting standards, auditing standards
+
+If you believe content in this repository infringes on your rights, please open an Issue to request removal. See [NOTICE](NOTICE) for details.
+
+### Usage Boundaries (使用边界)
+
+- **Allowed**: Personal study, redistribution with attribution, non-commercial adaptation (must share under the same license)
+- **Not allowed**: Commercial resale, redistribution without attribution, reposting with attribution removed
+
+---
+
 # CICPA 学习资料
 
 面向 2026 年注册会计师全国统一考试的开源学习索引，整理关键时间节点、各科题型分值、科目资料入口和官方来源。
