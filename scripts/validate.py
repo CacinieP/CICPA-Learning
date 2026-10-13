@@ -83,7 +83,7 @@ def check_flashcards() -> Tuple[int, List[str]]:
                          re.DOTALL | re.IGNORECASE)
     markdown_files = list(REPO_ROOT.rglob("*.md"))
     for f in markdown_files:
-        if ".git" in str(f):
+        if ".git" in str(f) or str(f.relative_to(REPO_ROOT)).startswith("docs/"):
             continue
         try:
             content = f.read_text(encoding="utf-8")
@@ -105,8 +105,12 @@ def check_naming() -> Tuple[int, List[str]]:
     for f in markdown_files:
         if ".git" in str(f) or f.name == "README.md" or f.name in NAMING_WHITELIST:
             continue
+        # 放行 docs/ 规范目录与专题研究目录 CAS-Revisions/
+        rel = f.relative_to(REPO_ROOT)
+        if str(rel).startswith("docs/") or str(rel).startswith("CAS-Revisions/"):
+            continue
         if not pattern.match(f.name):
-            errors.append(f"Invalid naming: {f.relative_to(REPO_ROOT)}")
+            errors.append(f"Invalid naming: {rel}")
     return len(errors), errors
 
 def main():
