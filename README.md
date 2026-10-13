@@ -124,6 +124,7 @@ Recommended usage:
 | [CICPA-Auditing](CICPA-Auditing/) | Auditing (审计) | 8/30 08:30—11:00 | 2.5h |
 | [CICPA-Financial Management](CICPA-Financial%20Management/) | Financial Cost Management (财务成本管理) | 8/30 13:00—15:30 | 2.5h |
 | [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | Corporate Strategy and Risk Management (公司战略与风险管理) | 8/30 17:00—19:00 | 2h |
+| [CAS-Revisions](CAS-Revisions/) | **CAS Revisions (2024–2026 最新准则专题)** | Cross-subject Track | Special |
 
 ### Registration Portal (报名入口)
 
@@ -293,6 +294,7 @@ If you believe content in this repository infringes on your rights, please open 
 | [CICPA-Auditing](CICPA-Auditing/) | 审计 | 8/30 08:30—11:00 | 2.5h |
 | [CICPA-Financial Management](CICPA-Financial%20Management/) | 财务成本管理 | 8/30 13:00—15:30 | 2.5h |
 | [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | 公司战略与风险管理 | 8/30 17:00—19:00 | 2h |
+| [CAS-Revisions](CAS-Revisions/) | **最新企业会计准则修订专题 (2024–2026)** | 跨科前沿专题追踪 | 专题追踪 |
 
 ### 报名入口
 

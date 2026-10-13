@@ -27,12 +27,23 @@ def parse_flashcards() -> List[Tuple[str, str, str, str]]:
         re.DOTALL | re.IGNORECASE
     )
 
-    markdown_files = list(REPO_ROOT.rglob("*-basics.md"))
+    markdown_files = list(REPO_ROOT.rglob("*.md"))
     for f in markdown_files:
+        if ".git" in str(f) or str(f.relative_to(REPO_ROOT)).startswith("docs/"):
+            continue
         try:
             content = f.read_text(encoding="utf-8")
-            subject = f.parent.parent.name  # e.g. CICPA-Accounting
-            chapter = f.parent.name        # e.g. 01-总论
+            if "anki-flashcard" not in content.lower():
+                continue
+            if f.parent == REPO_ROOT:
+                subject = "General"
+                chapter = "General"
+            elif f.parent.parent == REPO_ROOT:
+                subject = f.parent.name
+                chapter = f.stem
+            else:
+                subject = f.parent.parent.name  # e.g. CICPA-Accounting
+                chapter = f.parent.name        # e.g. 01-总论
             for match in pattern.finditer(content):
                 q, a, tags_raw = match.groups()
                 q = q.strip()
