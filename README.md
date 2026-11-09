@@ -1,10 +1,25 @@
 # CICPA Study Materials (CICPA 学习资料)
 
-An open-source study index for the 2026 Certified Public Accountant National Unified Examination (注册会计师全国统一考试), organizing key time points, question types and scores for each subject, subject material entry points, and official sources.
+An open-source study index for the 2027 Certified Public Accountant National Unified Examination (注册会计师全国统一考试), organizing key time points, question types and scores for each subject, subject material entry points, and official sources.
 
 > This repository is a personal study compilation project, not official materials from the Chinese Institute of Certified Public Accountants (中注协). If exam times, question types/scores, or registration rules change, refer to the CICPA official announcements.
+>
+> **2026 cycle archived**: the 2026 exam (August 29–30, 2026) has concluded. All 2026 notes and syllabi are frozen under `2026-*` folders; the top-level subject folders now track the **2027 cycle**.
 
-## 2026 Certified Public Accountant National Unified Examination — Key Time Points (关键时间节点)
+## 2027 Examination — Key Time Points (Pending Announcement)
+
+As of November 9, 2026, CICPA has **not yet announced** the 2027 registration and exam schedule. By convention, the times announcement is published around December of the preceding year, and the registration guide (报名简章) plus exam syllabi (考试大纲) around March 2027.
+
+| Item | 2027 Status |
+|------|-------------|
+| Registration period (报名时间) | ⏳ Pending announcement (2026 reference: April 7–30) |
+| Payment period (交费时间) | ⏳ Pending announcement (2026 reference: June 15–30) |
+| Professional stage exam (专业阶段考试) | ⏳ Pending announcement (expected late August 2027) |
+| Comprehensive stage exam (综合阶段考试) | ⏳ Pending announcement (expected late August 2027) |
+
+> This section will be updated once CICPA publishes the official 2027 announcement. Watch the [CICPA exam page](https://www.cicpa.org.cn/ztzl1/exam).
+
+## 2026 Examination (Concluded) — Reference Timeline
 
 ### Registration (报名)
 
@@ -106,25 +121,39 @@ All subjects have a maximum score of 100; 60 is the passing score. Each subject 
 | Short-answer questions (简答题) | 4 questions | 24 pts |
 | Comprehensive questions (综合题) | 1 question | 26 pts |
 
-> The above question types and scores are based on recent exam syllabi. If adjustments are made for 2026, refer to CICPA official announcements.
+> The above question types and scores are based on recent exam syllabi (through 2026). They will be re-verified against the official 2027 syllabus once published.
 
 ## Study Materials Index (学习资料索引)
 
 Recommended usage:
 
-1. First use the table below to confirm subject directories and exam timing
-2. Then enter the corresponding subject directory for knowledge points, notes, and review materials
+1. First use the tables below to confirm subject directories and the 2027 cycle status
+2. Until the 2027 syllabus is published, study directly from the archived 2026 notes (three-layer notes for all 79 chapters)
 3. When encountering exam schedule, registration, or payment questions, prioritize checking the official sources at the end of this document
 
-| Folder | Subject | Exam time | Duration |
-|--------|---------|-----------|----------|
-| [CICPA-Accounting](CICPA-Accounting/) | Accounting (会计) | 8/29 08:30—11:30 | 3h |
-| [CICPA-Tax](CICPA-Tax/) | Tax Law (税法) | 8/29 13:00—15:00 | 2h |
-| [CICPA-Law](CICPA-Law/) | Economic Law (经济法) | 8/29 17:00—19:00 | 2h |
-| [CICPA-Auditing](CICPA-Auditing/) | Auditing (审计) | 8/30 08:30—11:00 | 2.5h |
-| [CICPA-Financial Management](CICPA-Financial%20Management/) | Financial Cost Management (财务成本管理) | 8/30 13:00—15:30 | 2.5h |
-| [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | Corporate Strategy and Risk Management (公司战略与风险管理) | 8/30 17:00—19:00 | 2h |
-| [CAS-Revisions](CAS-Revisions/) | **CAS Revisions (2024–2026 最新准则专题)** | Cross-subject Track | Special |
+### 2027 Cycle (Active)
+
+| Folder | Subject | Status |
+|--------|---------|--------|
+| [CICPA-Accounting](CICPA-Accounting/) | Accounting (会计) | Skeleton index; chapters follow 2026 framework until the 2027 syllabus |
+| [CICPA-Tax](CICPA-Tax/) | Tax Law (税法) | Same as above |
+| [CICPA-Law](CICPA-Law/) | Economic Law (经济法) | Same as above |
+| [CICPA-Auditing](CICPA-Auditing/) | Auditing (审计) | Same as above |
+| [CICPA-Financial Management](CICPA-Financial%20Management/) | Financial Cost Management (财务成本管理) | Same as above |
+| [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | Corporate Strategy and Risk Management (公司战略与风险管理) | Same as above |
+| [CAS-Revisions](CAS-Revisions/) | **CAS Revisions (准则修订专题)** | Ongoing track; 2027-relevant new standards to be added here |
+
+### 2026 Cycle (Archived, Read-Only Reference)
+
+| Folder | Contents |
+|--------|----------|
+| [2026-CICPA-Accounting](2026-CICPA-Accounting/) | 30 chapters, three-layer notes + 2026 syllabus |
+| [2026-CICPA-Auditing](2026-CICPA-Auditing/) | 8 chapters, three-layer notes + 2026 syllabus |
+| [2026-CICPA-Tax](2026-CICPA-Tax/) | 14 chapters, three-layer notes + 2026 syllabus |
+| [2026-CICPA-Law](2026-CICPA-Law/) | 12 chapters, three-layer notes + 2026 syllabus |
+| [2026-CICPA-Financial Management](2026-CICPA-Financial%20Management/) | 7 chapters, three-layer notes + 2026 syllabus |
+| [2026-CICPA-Corporate Strategy](2026-CICPA-Corporate%20Strategy/) | 8 chapters, three-layer notes + 2026 syllabus |
+| [2026-CAS-Revisions](2026-CAS-Revisions/) | 4 CAS-revision research topics (2024–2026), incl. CAS 30 (财会〔2026〕11号) |
 
 ### Registration Portal (报名入口)
 
@@ -137,6 +166,9 @@ Recommended usage:
 
 ## Official Sources (官方来源)
 
+> The 2027 announcement has not been published yet (as of November 9, 2026). Links below are the latest available (2026 cycle) and will be superseded once 2027 documents are released.
+
+- [CICPA Exam Page (watch for 2027 announcements)](https://www.cicpa.org.cn/ztzl1/exam)
 - [Announcement on the 2026 Certified Public Accountant National Unified Examination Registration and Exam Times](https://www.cicpa.org.cn/xxfb/tzgg/202512/t20251210_65740.html)
 - [2026 Certified Public Accountant National Unified Examination Registration Guide (PDF)](https://www.cicpa.org.cn/xxfb/tzgg/202603/W020260311354851382981.pdf)
 - [CICPA Officials' Q&A on 2026 CPA Exam Registration Matters](https://www.cicpa.org.cn/xxfb/news/202603/t20260311_65853.html)
@@ -170,11 +202,26 @@ If you believe content in this repository infringes on your rights, please open 
 
 # CICPA 学习资料
 
-面向 2026 年注册会计师全国统一考试的开源学习索引，整理关键时间节点、各科题型分值、科目资料入口和官方来源。
+面向 2027 年注册会计师全国统一考试的开源学习索引，整理关键时间节点、各科题型分值、科目资料入口和官方来源。
 
 > 本仓库是个人学习整理项目，不是中注协官方资料。考试时间、题型分值和报名规则如有变化，以中注协正式公告为准。
+>
+> **2026 周期已归档**：2026 年考试（8 月 29—30 日）已结束。全部 2026 笔记与大纲冻结于 `2026-*` 前缀目录；顶层科目目录转向 **2027 周期**。
 
-## 2026 年注册会计师全国统一考试 — 关键时间节点
+## 2027 年考试 — 关键时间节点（待公布）
+
+截至 2026 年 11 月 9 日，中注协**尚未发布** 2027 年报名与考试安排。按惯例，报名时间与考试时间公告于前一年 12 月左右发布，报名简章与考试大纲于 2027 年 3 月左右发布。
+
+| 项目 | 2027 状态 |
+|------|-----------|
+| 报名时间 | ⏳ 待公布（2026 参考：4 月 7—30 日） |
+| 交费时间 | ⏳ 待公布（2026 参考：6 月 15—30 日） |
+| 专业阶段考试 | ⏳ 待公布（预计 2027 年 8 月下旬） |
+| 综合阶段考试 | ⏳ 待公布（预计 2027 年 8 月下旬） |
+
+> 中注协发布 2027 年公告后本节将同步更新。可关注 [中注协考试专题页](https://www.cicpa.org.cn/ztzl1/exam)。
+
+## 2026 年考试（已结束）— 时间安排备查
 
 ### 报名
 
@@ -276,25 +323,39 @@ If you believe content in this repository infringes on your rights, please open 
 | 简答题 | 4 题 | 24 分 |
 | 综合题 | 1 题 | 26 分 |
 
-> 以上题型分值参考近年考试大纲，2026 年如有调整以中注协正式公告为准。
+> 以上题型分值参考近年考试大纲（截至 2026 年）；2027 年正式大纲发布后复核更新。
 
 ## 学习资料索引
 
 建议使用方式：
 
-1. 先用下表确认科目目录和考试节奏
-2. 再进入对应科目目录看知识点、笔记和复习材料
+1. 先用下表确认科目目录与 2027 周期状态
+2. 2027 大纲发布前，直接使用归档的 2026 笔记复习（79 章三层笔记齐全）
 3. 遇到考试安排、报名和缴费问题时，优先核对文末官方来源
 
-| 文件夹 | 科目 | 考试时间 | 时长 |
-|--------|------|----------|------|
-| [CICPA-Accounting](CICPA-Accounting/) | 会计 | 8/29 08:30—11:30 | 3h |
-| [CICPA-Tax](CICPA-Tax/) | 税法 | 8/29 13:00—15:00 | 2h |
-| [CICPA-Law](CICPA-Law/) | 经济法 | 8/29 17:00—19:00 | 2h |
-| [CICPA-Auditing](CICPA-Auditing/) | 审计 | 8/30 08:30—11:00 | 2.5h |
-| [CICPA-Financial Management](CICPA-Financial%20Management/) | 财务成本管理 | 8/30 13:00—15:30 | 2.5h |
-| [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | 公司战略与风险管理 | 8/30 17:00—19:00 | 2h |
-| [CAS-Revisions](CAS-Revisions/) | **最新企业会计准则修订专题 (2024–2026)** | 跨科前沿专题追踪 | 专题追踪 |
+### 2027 周期（现行）
+
+| 文件夹 | 科目 | 状态 |
+|--------|------|------|
+| [CICPA-Accounting](CICPA-Accounting/) | 会计 | 骨架索引；2027 大纲发布前沿用 2026 框架 |
+| [CICPA-Tax](CICPA-Tax/) | 税法 | 同上 |
+| [CICPA-Law](CICPA-Law/) | 经济法 | 同上 |
+| [CICPA-Auditing](CICPA-Auditing/) | 审计 | 同上 |
+| [CICPA-Financial Management](CICPA-Financial%20Management/) | 财务成本管理 | 同上 |
+| [CICPA-Corporate Strategy](CICPA-Corporate%20Strategy/) | 公司战略与风险管理 | 同上 |
+| [CAS-Revisions](CAS-Revisions/) | **准则修订专题** | 持续追踪；与 2027 相关的新准则在此续写 |
+
+### 2026 周期（已归档，只读参考）
+
+| 文件夹 | 内容 |
+|--------|------|
+| [2026-CICPA-Accounting](2026-CICPA-Accounting/) | 30 章三层笔记 + 2026 大纲 |
+| [2026-CICPA-Auditing](2026-CICPA-Auditing/) | 8 章三层笔记 + 2026 大纲 |
+| [2026-CICPA-Tax](2026-CICPA-Tax/) | 14 章三层笔记 + 2026 大纲 |
+| [2026-CICPA-Law](2026-CICPA-Law/) | 12 章三层笔记 + 2026 大纲 |
+| [2026-CICPA-Financial Management](2026-CICPA-Financial%20Management/) | 7 章三层笔记 + 2026 大纲 |
+| [2026-CICPA-Corporate Strategy](2026-CICPA-Corporate%20Strategy/) | 8 章三层笔记 + 2026 大纲 |
+| [2026-CAS-Revisions](2026-CAS-Revisions/) | 准则修订专题 4 篇（2024–2026），含 CAS 30 新规（财会〔2026〕11号） |
 
 ### 报名入口
 
@@ -303,10 +364,13 @@ If you believe content in this repository infringes on your rights, please open 
 
 ### 咨询电话
 
-010-88250110 / 010-88250119（工作日 8:00-11:30，13:00-17:00）
+010-88250110 / 010-88250119（工作日 8:00-11:30, 13:00-17:00）
 
 ## 官方来源
 
+> 2027 年公告尚未发布（截至 2026 年 11 月 9 日）。以下为目前最新的 2026 周期文件，2027 文件发布后替换。
+
+- [中注协考试专题页（关注 2027 公告）](https://www.cicpa.org.cn/ztzl1/exam)
 - [关于发布 2026 年注册会计师全国统一考试报名时间和考试时间的公告](https://www.cicpa.org.cn/xxfb/tzgg/202512/t20251210_65740.html)
 - [2026 年注册会计师全国统一考试报名简章（PDF）](https://www.cicpa.org.cn/xxfb/tzgg/202603/W020260311354851382981.pdf)
 - [中注协有关负责人就 2026 年注会考试报名事项答记者问](https://www.cicpa.org.cn/xxfb/news/202603/t20260311_65853.html)

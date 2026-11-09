@@ -30,7 +30,7 @@ def log(msg: str, color: str = ""):
     print(f"{color}{msg}{Colors.END}")
 
 def check_structure() -> Tuple[int, List[str]]:
-    """检查每章是否包含 README.md 和 basics.md"""
+    """检查每章是否包含 README.md 和 basics.md（仅 2027 现行目录）"""
     errors = []
     subjects = ["CICPA-Accounting", "CICPA-Auditing", "CICPA-Tax",
                 "CICPA-Law", "CICPA-Financial Management", "CICPA-Corporate Strategy"]
@@ -39,6 +39,9 @@ def check_structure() -> Tuple[int, List[str]]:
         subject_dir = REPO_ROOT / subject
         if not subject_dir.exists():
             continue
+        for chapter_dir in sorted(subject_dir.iterdir()):
+            if not chapter_dir.is_dir():
+                continue
         for chapter_dir in sorted(subject_dir.iterdir()):
             if not chapter_dir.is_dir():
                 continue
@@ -83,7 +86,11 @@ def check_flashcards() -> Tuple[int, List[str]]:
                          re.DOTALL | re.IGNORECASE)
     markdown_files = list(REPO_ROOT.rglob("*.md"))
     for f in markdown_files:
-        if ".git" in str(f) or str(f.relative_to(REPO_ROOT)).startswith("docs/"):
+        if ".git" in str(f):
+            continue
+        rel = str(f.relative_to(REPO_ROOT))
+        # 放行 docs/ 规范目录与 2026-* 归档目录（冻结快照）
+        if rel.startswith("docs/") or rel.startswith("2026-"):
             continue
         try:
             content = f.read_text(encoding="utf-8")
@@ -105,9 +112,10 @@ def check_naming() -> Tuple[int, List[str]]:
     for f in markdown_files:
         if ".git" in str(f) or f.name == "README.md" or f.name in NAMING_WHITELIST:
             continue
-        # 放行 docs/ 规范目录与专题研究目录 CAS-Revisions/
+        # 放行 docs/ 规范目录、专题研究目录 CAS-Revisions/ 与 2026-* 归档目录（冻结快照）
         rel = f.relative_to(REPO_ROOT)
-        if str(rel).startswith("docs/") or str(rel).startswith("CAS-Revisions/"):
+        if str(rel).startswith("docs/") or str(rel).startswith("CAS-Revisions/") \
+                or str(rel).startswith("2026-"):
             continue
         if not pattern.match(f.name):
             errors.append(f"Invalid naming: {rel}")

@@ -23,21 +23,24 @@
 ```
 CICPA-Learning/
 ├── CONTRIBUTING.md          ← 你在这里
-├── PROGRESS.md              ← 进度追踪
+├── PROGRESS.md              ← 进度追踪（2027 周期）
 ├── .github/
 │   └── ISSUE_TEMPLATE/     ← Issue 模板
 ├── scripts/                 ← 自动化工具
-├── CICPA-Accounting/        ← 会计
+├── CICPA-Accounting/        ← 会计（2027 周期，现行）
 │   └── NN-章节名/
 │       ├── README.md        ← 考试大纲考点索引
 │       ├── 01-章节名-basics.md      ← 第一性原理入门
 │       ├── 01-章节名-intermediate.md   ← 典型考题解析
 │       └── 01-章节名-advanced.md      ← 综合实战
-├── CICPA-Auditing/          ← 审计
-├── CICPA-Tax/               ← 税法
-├── CICPA-Law/               ← 经济法
-├── CICPA-Financial Management/ ← 财务成本管理
-└── CICPA-Corporate Strategy/   ← 公司战略与风险管理
+├── CICPA-Auditing/          ← 审计（2027 周期，现行）
+├── CICPA-Tax/               ← 税法（2027 周期，现行）
+├── CICPA-Law/               ← 经济法（2027 周期，现行）
+├── CICPA-Financial Management/ ← 财务成本管理（2027 周期，现行）
+├── CICPA-Corporate Strategy/   ← 公司战略与风险管理（2027 周期，现行）
+├── CAS-Revisions/           ← 准则修订专题（持续追踪）
+└── 2026-*/                  ← 2026 周期归档（只读参考，不再修改；
+                              笔记沿用请在对应 2027 目录新建/复核）
 ```
 
 ## 贡献规范
@@ -48,7 +51,8 @@ CICPA-Learning/
 - **遵循模板**：intermediate 和 advanced 必须使用下方提供的模板结构
 - **中文撰写**：专业术语首次出现时附英文对照
 - **每 PR 限 1-2 章**：便于审核和质量把控
-- **考试大纲同步**：新增内容须对应 2026 年考试大纲（能力等级 1/2/3）
+- **考试大纲同步**：新增内容须对应 2027 年考试大纲（能力等级 1/2/3）；2027 大纲发布前，章节框架与考点索引暂沿用 2026 年大纲（归档于 `2026-*/考试大纲.md`）
+- **归档目录不改**：`2026-*` 为已归档的上一备考周期，只读参考；对其的修正请在对应 2027 目录以新笔记形式给出
 
 ### intermediate.md 模板
 

@@ -1,5 +1,7 @@
 # 中国企业会计准则最新修订（2024–2026）实施计划
 
+> 📦 **归档说明（2026-11-09）**：本计划所属模块已随 2026 备考周期归档至 `2026-CAS-Revisions/`，文档原样保留备查。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 构建独立的 `CAS-Revisions/` 专题模块，并系统更新会计等既有科目受影响章节，全面反映 2024–2026 年准则修订（CAS 30、解释17/18号、新会计法、可持续披露准则）。
